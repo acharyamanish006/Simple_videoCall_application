@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input id="localRoomId" type="text"> <br> <br>
+        <input id="remoteRoomId" type="text">
+    </div>
+    <br>
+    <br>
+    <div >
+        <video style="border: 1px solid red;" id="localStream" src=""></video>
+        <video id="remoteStream" style="border: 1px solid red;" src=""></video>
+    </div>
+    <br>
+    <br>
+    <button id="callBtn">Call</button>
+
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
